@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="clickme();">Click Me</button>
+    <button class="check" onclick="check();">Check!</button>
+    <button class="value" onclick="ifelse();">value!(if or else st.)</button>
+    <img src="Screenshot_2024-10-20_173122-removebg-preview.png" alt="not" class="icon1">
+</body>
+<script>
+    function clickme(){
+        alert("Hello");//alert used for pop up.
+        alert("Is me");
+    }
+    function check(){
+        alert("hel");
+        confirm("Are you sure?");//for confurmation purpose
+        prompt("What is name");//Provide a text for to enter text
+    }
+    function ifelse(){
+        var val = 0;//value is give 
+        if(val>1){//if val>1 pop true
+            alert(true);
+        }
+        else{// else pop false
+            alert(false);
+        }
+    }
+    var icon = document.getElementById("icon1");
+    icon.src = "kitty.gif"
+</script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="click to view" onclick="showMsg ('The button has been click', 'sam', 'ram')">
+    <input type="text" class="ans" value="answer">
+</body>
+<script>
+    function showMsg(msg, a, b){
+        document.write("Button send:" + msg);
+        document.write("Button send:" + a);
+        document.write("Button send:" + b);
+    }
+
+    function input(){
+        var answer = prompt("What is name?", "");
+        if(answer){
+            alert("Hello "+answer+"!")
+        }
+    }
+</script>
+</html>
