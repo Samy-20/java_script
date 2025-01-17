@@ -1,0 +1,100 @@
+body{
+    background-color: rgba(14, 11, 11, 0.696);
+    color: white;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.mode{
+    justify-content: end;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.99);
+    height: 5vh;
+    color: white;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.container{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.375);
+}
+
+.box{
+    background-color: rgb(0, 0, 0);
+    height: 18vh;
+    width: 18vh;
+    color: white;
+    font-size: 8vh;
+    border-radius: 25px;
+    border: none;
+}
+
+button:hover{
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.reset{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+}
+
+.msg{
+    font-size: 9vh;
+    margin: 0;
+}
+
+.msg-container{
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.newGame{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 10vh;
+    padding: 4vh;
+}
+
+.hide{
+    display: none;
+}
